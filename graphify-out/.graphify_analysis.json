@@ -1,0 +1,249 @@
+{
+  "communities": {
+    "0": [
+      "package",
+      "package_name",
+      "package_private",
+      "package_type",
+      "package_version",
+      "ref_autoprefixer",
+      "ref_class_variance_authority",
+      "ref_clsx",
+      "ref_framer_motion",
+      "ref_path",
+      "ref_postcss",
+      "ref_radix_ui_react_slot",
+      "ref_tailwind_merge",
+      "ref_tailwindcss",
+      "ref_types_node",
+      "ref_types_react",
+      "ref_types_react_dom",
+      "ref_typescript",
+      "ref_vite",
+      "ref_vitejs_plugin_react_swc",
+      "src_lib_utils",
+      "src_lib_utils_cn",
+      "vite_config"
+    ],
+    "1": [
+      "tsconfig_app",
+      "tsconfig_app_compileroptions",
+      "tsconfig_app_compileroptions_allowimportingtsextensions",
+      "tsconfig_app_compileroptions_baseurl",
+      "tsconfig_app_compileroptions_isolatedmodules",
+      "tsconfig_app_compileroptions_jsx",
+      "tsconfig_app_compileroptions_lib",
+      "tsconfig_app_compileroptions_module",
+      "tsconfig_app_compileroptions_moduledetection",
+      "tsconfig_app_compileroptions_moduleresolution",
+      "tsconfig_app_compileroptions_noemit",
+      "tsconfig_app_compileroptions_nofallthroughcasesinswitch",
+      "tsconfig_app_compileroptions_nounusedlocals",
+      "tsconfig_app_compileroptions_nounusedparameters",
+      "tsconfig_app_compileroptions_paths",
+      "tsconfig_app_compileroptions_resolvejsonmodule",
+      "tsconfig_app_compileroptions_skiplibcheck",
+      "tsconfig_app_compileroptions_strict",
+      "tsconfig_app_compileroptions_target",
+      "tsconfig_app_compileroptions_usedefineforclassfields",
+      "tsconfig_app_include"
+    ],
+    "2": [
+      "ref_lucide_react",
+      "ref_react",
+      "ref_react_dom",
+      "ref_react_router_dom",
+      "src_app",
+      "src_app_app",
+      "src_components_layout_layout",
+      "src_components_layout_layout_layout",
+      "src_components_layout_sidebar",
+      "src_components_layout_sidebar_navitem",
+      "src_components_layout_sidebar_sidebar",
+      "src_components_layout_topbar",
+      "src_components_layout_topbar_topbar",
+      "src_index",
+      "src_main"
+    ],
+    "3": [
+      "package_dependencies",
+      "package_dependencies_class_variance_authority",
+      "package_dependencies_clsx",
+      "package_dependencies_framer_motion",
+      "package_dependencies_lucide_react",
+      "package_dependencies_radix_ui_react_slot",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "package_dependencies_react_router_dom",
+      "package_dependencies_recharts",
+      "package_dependencies_tailwind_merge"
+    ],
+    "4": [
+      "package_devdependencies",
+      "package_devdependencies_autoprefixer",
+      "package_devdependencies_postcss",
+      "package_devdependencies_tailwindcss",
+      "package_devdependencies_types_node",
+      "package_devdependencies_types_react",
+      "package_devdependencies_types_react_dom",
+      "package_devdependencies_typescript",
+      "package_devdependencies_vite",
+      "package_devdependencies_vitejs_plugin_react_swc"
+    ],
+    "5": [
+      "tsconfig_node",
+      "tsconfig_node_compileroptions",
+      "tsconfig_node_compileroptions_allowsyntheticdefaultimports",
+      "tsconfig_node_compileroptions_composite",
+      "tsconfig_node_compileroptions_module",
+      "tsconfig_node_compileroptions_moduleresolution",
+      "tsconfig_node_compileroptions_skiplibcheck",
+      "tsconfig_node_compileroptions_strict",
+      "tsconfig_node_include"
+    ],
+    "6": [
+      "ref_recharts",
+      "src_pages_dashboard",
+      "src_pages_dashboard_activities",
+      "src_pages_dashboard_dashboard",
+      "src_pages_dashboard_metriccard",
+      "src_pages_dashboard_pipelinebar",
+      "src_pages_dashboard_recentclients",
+      "src_pages_dashboard_revenuedata"
+    ],
+    "7": [
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_lint",
+      "package_scripts_preview"
+    ],
+    "8": [
+      "tsconfig",
+      "tsconfig_files",
+      "tsconfig_references"
+    ],
+    "9": [
+      "tailwind_config",
+      "tailwindcss"
+    ],
+    "10": [
+      "postcss_config"
+    ]
+  },
+  "cohesion": {
+    "0": 0.09486166007905138,
+    "1": 0.09523809523809523,
+    "2": 0.23809523809523808,
+    "3": 0.18181818181818182,
+    "4": 0.2,
+    "5": 0.2222222222222222,
+    "6": 0.32142857142857145,
+    "7": 0.4,
+    "8": 0.6666666666666666,
+    "9": 1.0,
+    "10": 1.0
+  },
+  "gods": [
+    {
+      "id": "tsconfig_app_compileroptions",
+      "label": "compilerOptions",
+      "degree": 19
+    },
+    {
+      "id": "tsconfig_node_compileroptions",
+      "label": "compilerOptions",
+      "degree": 7
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 5
+    },
+    {
+      "id": "src_components_layout_layout_layout",
+      "label": "Layout()",
+      "degree": 5
+    },
+    {
+      "id": "src_pages_dashboard_dashboard",
+      "label": "Dashboard()",
+      "degree": 5
+    },
+    {
+      "id": "ref_lucide_react",
+      "label": "lucide-react",
+      "degree": 4
+    },
+    {
+      "id": "ref_react_router_dom",
+      "label": "react-router-dom",
+      "degree": 4
+    },
+    {
+      "id": "src_app_app",
+      "label": "App()",
+      "degree": 4
+    },
+    {
+      "id": "src_components_layout_sidebar_sidebar",
+      "label": "Sidebar()",
+      "degree": 4
+    },
+    {
+      "id": "src_components_layout_topbar_topbar",
+      "label": "Topbar()",
+      "degree": 3
+    }
+  ],
+  "surprises": [
+    {
+      "source": "App()",
+      "target": "Dashboard()",
+      "source_files": [
+        "src/App.tsx",
+        "src/pages/Dashboard.tsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "App()",
+      "target": "Layout()",
+      "source_files": [
+        "src/App.tsx",
+        "src/components/layout/Layout.tsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "Layout()",
+      "target": "Sidebar()",
+      "source_files": [
+        "src/components/layout/Layout.tsx",
+        "src/components/layout/Sidebar.tsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "Layout()",
+      "target": "Topbar()",
+      "source_files": [
+        "src/components/layout/Layout.tsx",
+        "src/components/layout/Topbar.tsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}
